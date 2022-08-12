@@ -1,0 +1,57 @@
+#container {
+    width: 900px;
+    margin: 0 auto;
+    background-color: aqua;
+    padding: 30px;
+}
+#header {
+
+}
+#nav{
+    margin: 0;
+    padding: 0;
+    background-color:burlywood ;
+}
+#nav li{
+    list-style: none;
+    float: left;
+    padding: 0 15px 0 0;
+}
+#nav li a{
+    text-decoration: none;
+}
+#body p{
+    line-height: 1.6em;   
+}
+.main {
+    width: 600px;
+    float: left;
+}
+.main-inner{
+    padding: 0 60px 0 0;
+}
+.side {
+    width: 300px;
+    float: left;
+}
+#footer {
+    background-color:darkblue;
+    color: #fff;
+}
+
+.clearfix:after {
+     content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    }
+
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+    
+
+
